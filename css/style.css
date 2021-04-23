@@ -414,3 +414,73 @@ body {
   color: #8c8c8c;
   padding: 19px 0 30px 0;
 }
+
+.realization-ideas {
+  width: 100%;
+  background-color: #fbfaf8;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+
+.realization-ideas_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.realization-ideas_title {
+  width: 100%;
+  padding-top: 83px;
+  margin: 0;
+  text-align: center;
+  font-family: "raleway";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #555555;
+}
+
+.realization-ideas_txt {
+  margin: 0;
+  width: 45%;
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 40px;
+  font-family: "montserrat";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #8c8c8c;
+}
+
+.realization-ideas_img-center {
+  z-index: 3;
+}
+
+.realization-ideas_img-left {
+  position: absolute;
+  top: 292px;
+  left: 345px;
+  z-index: 2;
+}
+
+.realization-ideas_img-right {
+  position: absolute;
+  top: 292px;
+  right: 345px;
+  z-index: 1;
+}
+
+.realization-ideas_img-center:hover {
+  z-index: 1;
+}
+.realization-ideas_img-left:hover {
+  z-index: 3;
+}
+.realization-ideas_img-right:hover {
+  z-index: 5;
+}
