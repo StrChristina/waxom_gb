@@ -458,29 +458,103 @@ body {
 }
 
 .realization-ideas_img-center {
-  z-index: 3;
+  z-index: 1;
 }
 
 .realization-ideas_img-left {
   position: absolute;
-  top: 292px;
+  top: 320px;
   left: 345px;
-  z-index: 2;
 }
 
 .realization-ideas_img-right {
   position: absolute;
-  top: 292px;
+  top: 320px;
   right: 345px;
+}
+
+.realization-ideas_img-left:hover {
+  z-index: 1;
+}
+.realization-ideas_img-right:hover {
   z-index: 1;
 }
 
-.realization-ideas_img-center:hover {
-  z-index: 1;
+.wordpress {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #f4f5f8;
+  background-image: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
 }
-.realization-ideas_img-left:hover {
-  z-index: 3;
+
+.wordpress_content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 48px 0 49px 0;
 }
-.realization-ideas_img-right:hover {
-  z-index: 5;
+
+.wordpress_title {
+  font-family: "raleway";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 1.2;
+  color: #ffffff;
+  margin: 0;
+  width: 100%;
+  text-align: left;
+  padding-top: 8px;
+}
+
+.wordpress_title-waxom {
+  color: #c7b299;
+}
+
+.wordpress_txt {
+  font-family: "montserrat";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #615855;
+  margin: 0;
+}
+
+.wordpress_button {
+  width: 170px;
+  height: 50px;
+  background-color: #998675;
+  box-shadow: inset 0px -3px 0px 0px #736357;
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 23px;
+  font-family: "raleway";
+  font-weight: 800;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: block;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  word-break: break-all;
+  padding: 0;
+}
+
+.wordpress_button:hover {
+  background-color: #ffffff;
+  color: #998675;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  cursor: pointer;
+  box-shadow: inset 0px -3px 0px 0px rgb(120, 120, 243);
+}
+
+.wordpress_button:active {
+  color: #ffffff;
+  background-color: #998675;
+  border: transparent;
+  box-sizing: border-box;
 }
